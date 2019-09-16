@@ -1,0 +1,39 @@
+
+.grid-container {
+  font-family: 'Times New Roman', Times, serif;
+    display:inline-grid;
+    
+    color: beige;
+    font-size: 300%;
+    align-content: center;
+    padding: 120 500;
+  }
+  
+  body {
+    background-color: #50704a;
+   
+    border: 2px solid white;
+  }
+#signup{
+  display: inline-grid;
+  border: 2px solid;
+  color: #50704a;
+  font: 100;
+  background-color: white;
+
+}
+.formContainer{
+  
+  float: right;
+  border: 1px solid;
+  align-content: center;
+  background: white;
+  padding: 0 75;
+}
+::placeholder{
+  color: gray;
+  opacity: 0.5;
+}
+
+
+  
