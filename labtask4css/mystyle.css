@@ -2,11 +2,10 @@
 .grid-container {
   font-family: 'Times New Roman', Times, serif;
     display:inline-grid;
-    
     color: beige;
     font-size: 300%;
     align-content: center;
-    padding: 120 500;
+    margin: 150px 250px;
   }
   
   body {
@@ -16,6 +15,7 @@
   }
 #signup{
   display: inline-grid;
+  font-family: 'Times New Roman', Times, serif;
   border: 2px solid;
   color: #50704a;
   font: 100;
@@ -23,16 +23,28 @@
 
 }
 .formContainer{
-  
+  font-family: 'Times New Roman', Times, serif;
   float: right;
-  border: 1px solid;
+
   align-content: center;
   background: white;
-  padding: 0 75;
+  margin-top: 150px;
+  margin-right:250px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right:100px;
+  font-size: 20px;
+
 }
 ::placeholder{
   color: gray;
   opacity: 0.5;
+}
+span > h4{
+  background-color: #50704a;
+  color: white;
+  padding: 20px;
+  margin-top: 5px;
 }
 
 
