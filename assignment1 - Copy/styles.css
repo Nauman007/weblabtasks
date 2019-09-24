@@ -1,0 +1,37 @@
+.name{
+    color: white;
+    text-align: center;
+}
+img{
+    display: inline;
+}
+.header , h2 {
+    background-image: url("1.jpg");
+}
+.left-content{
+    float: left;
+}
+.menu > a{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(125, 125, 192);
+    color: white;
+    padding: 14px 25px;
+    margin-top:-1px;
+    text-align: center;
+    text-decoration: none;
+}
+.right-content{
+    border: 2px solid gray;
+    float: right;
+    width: 400px;
+    margin-right: 500px; 
+}
+.body   {
+    background-color: rgb(14, 14, 65);
+    border: 2px solid black;
+    padding-left:100px;
+}
+.cvbackground{
+    background-color: black
+}
