@@ -1,0 +1,70 @@
+/* Container holding the image and the text */
+.container-fluid1 {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Centered text */
+  .centered{
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    left:30%;
+  }
+ h1{
+      font-size: 50px;
+      color: white;
+      font-weight: bold;
+  }
+  .centered p{
+      color: white;
+      width: 50%;
+      font-size: 20px;
+  }
+  .container-fluid p{
+    width: 80%;
+    text-align: justify; 
+  }
+ 
+   h2{
+    font-stretch: expanded;
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+  }
+  .icon1{
+    margin-left: 100px;
+    color: rgb(44, 44, 105);
+  }
+  .icon1 ,h3{
+    text-align: left;
+  }
+.heading{
+  text-align: justify;
+  color: blue;
+}
+  .col-sm-4 >  p{
+    text-align: center;
+    font-size: 19px;
+  }
+  .row1{
+    width: 100%;
+    background-color: lightgrey;
+  }
+.container-fluid{
+  background-color: lightgrey;
+}
+.nav{
+  font-size: 30px;
+}
+.card-title , h4{
+  color: blue;
+  font-size: 40px;
+}
+#last  {
+  padding-top:3%;
+  padding-left: 2%;
+  background-color: lightgrey;
+}
