@@ -2,7 +2,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .name {
-  color: white;
+  color: black;
   text-align: center;
 }
 img {
@@ -32,7 +32,7 @@ h1 {
   position: relative;
   display: inline-block;
   background-color: rgb(125, 125, 192);
-  color: white;
+  color: black;
   padding: 10px 45px 10px 45px;
   text-align: center;
   text-decoration: none;
@@ -62,14 +62,15 @@ h1 {
   float: right;
   width: 40%;
   text-align: justify;
-  margin-bottom: 20%;
+  padding-bottom:10%;
 }
 .right-content h3 {
   text-decoration: underline;
 }
 .body {
   background-color: gray;
-  padding-left: 10%;
+  padding-left: 5%;
+  margin-bottom: 7%;
 }
 .heading1 h3 {
   text-decoration: underline;
@@ -77,4 +78,11 @@ h1 {
 
 .contactme {
   text-align: justify;
+}
+.go-up{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 55%;
+  margin-right: 2%;
+  font-size: 30px;
 }
