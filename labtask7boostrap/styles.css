@@ -42,7 +42,8 @@
     text-align: left;
   }
 .heading{
-  text-align: justify;
+  
+  padding-right: 250px;
   color: blue;
 }
   .col-sm-4 >  p{
@@ -67,4 +68,24 @@
   padding-top:3%;
   padding-left: 2%;
   background-color: lightgrey;
+}
+.icon1{
+  padding-left :20px;
+}
+.col-sm-4,i,h4,hr{
+  text-align: center;
+  color: blue;
+}
+i,strong{
+  color: lightblue;
+}
+p{
+  color:black;  
+}
+hr{
+  size:12%;
+  color: blue;
+}
+.container{
+  margin-top: 1
 }
