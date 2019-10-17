@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script>
+      function fetchData() {
+        var data = document.getElementById("name").value;
+        var data2 = document.getElementById("color").value;
+        var data3 = document.getElementById("size").value;
+
+        var x = document.createElement("label");
+        x.setAttribute("id", "label1");
+
+        x.style.fontSize = data3;
+        x.style.color = data2;
+        x.innerHTML = data;
+
+        document.getElementById("test").appendChild(x);
+      }
+    </script>
+    <style>
+      .content {
+        text-align: center;
+        margin-top: 10%;
+      }
+      input {
+        font-size: 20;
+        width: 20%;
+        height: 4%;
+      }
+      button {
+        width: 10%;
+        height: 4%;
+      }
+      button,
+      label {
+        font-size: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <br />
+      <input type="text" id="name" placeholder="enter name" width="30%" />
+      <br />
+      <br />
+      <input type="text" id="color" placeholder="enter color" />
+      <br />
+      <br />
+      <input type="text" id="size" placeholder="enter size" />
+      <br />
+      <br />
+      <button type="submit" class="btn btn-primary" onclick="fetchData()">
+        <label>Submit</label>
+      </button>
+
+      <div id="test"></div>
+    </div>
+  </body>
+</html>
