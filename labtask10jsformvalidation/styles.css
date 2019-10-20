@@ -1,0 +1,47 @@
+.container{
+    background-color: royalblue;
+    margin-top: 2%;
+    padding:2%;
+    width:30%;
+    border-radius:40px;
+}
+.container_content{
+     border-radius:40px;
+    background-color: white;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    
+}
+h1,h4{
+    padding-left: 10%
+}
+h4{
+    color: lightgrey;
+}
+form{
+    padding-left: 10%
+}
+
+.form-control{
+    font-size: large;
+    height: 50px;
+    background-color: lightgray;
+    border-radius:40px;
+}
+span{
+    color: royalblue;
+}
+#btn{
+    height: 60px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius:10px;
+}
+p,a{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+a:hover{
+    color: red;
+}
