@@ -35,7 +35,7 @@ app.get('/getlist', (req, res) => {
 
 //Answer to point 3
 app.get('/getlistbyprice/:price', (req, res) => {
-  var car = cars.find(c => c.price > parseInt(req.params.price));
+  var car = cars.filter(c => c.price > parseInt(req.params.price));
   if (!car) res.status(404).send('No Car Found!');
   res.send(car);
 });
