@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/playground')
+mongoose.connect('mongodb://localhost/newDatabase')
     .then(() => console.log('Connection Successful'))
     .catch(err => console.error('could not connect', err))
 
@@ -81,7 +81,7 @@ async function getCoursesAgregateFunction() {
 
 
 //createCourse();
-//getCourses();
+getCourses();
 //getCoursesFiltered();
 //getCoursesByOperator();//confusion about output
 //getCoursesWithLogicalOperators();//confusion about output
